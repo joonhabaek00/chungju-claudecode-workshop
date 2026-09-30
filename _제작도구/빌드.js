@@ -44,8 +44,9 @@ const bodySrc = html.slice(cut + '</style>'.length).replace(/^\s+/, '');
 
 const SITE = 'https://joonhabaek00.github.io/chungju-claudecode-workshop/';
 const DESC = 'AI로 뭘 해야 할지 모르겠다면, 일단 하나 만들어 보세요. '
-           + '충주 관아골에서 밤 8시부터 세 시간, 가게나 일에 쓸 것 하나를 직접 만들어 '
-           + '인터넷 주소까지 만들고 가는 실습 수업입니다. 10/16~31 중 하루, 90,000원.';
+           + '비개발자가 진행하는 AI 업무 자동화 실습입니다. 코딩은 배우지 않고 한글로 시킵니다. '
+           + '충주 관아골에서 밤 8시부터 세 시간, 가게나 회사 일에 쓸 것 하나를 직접 만들어 '
+           + '인터넷 주소까지 만들고 갑니다. 10/16~31 중 하루, 90,000원.';
 // 탭 아이콘: 노란 사각 안의 검은 점 하나 (페이지 팔레트와 같다)
 const ICON = 'data:image/svg+xml,'
   + encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">'

@@ -329,3 +329,47 @@ footer .fm b{color:var(--ink);font-weight:600}
 }
 .hookline span{font-size:15px;color:var(--ink-55);line-height:1.5}
 </style>
+<style>
+/* ── 히어로 배지 ─────────────────────────────────────── */
+.badges{
+  display:flex;flex-wrap:wrap;gap:8px;list-style:none;margin:0 0 20px;padding:0;
+}
+.badges li{
+  font-family:var(--mono);font-size:12.5px;font-weight:600;letter-spacing:.04em;
+  border:2px solid var(--c-mag);color:var(--c-mag);padding:5px 11px;line-height:1.4;
+}
+.badges li.fill{background:var(--c-mag);color:#0A0A09}
+
+/* ── 클로드 코드 터미널 데모 ──────────────────────────── */
+/* 실제 화면을 흉내 낸 블록이라 모서리·색이 페이지 규칙과 다르다.
+   클로드 코드의 표식 색(#D97757)을 여기서만 쓴다. */
+.term{
+  border:2px solid var(--ink-17);background:#141413;margin:4px 0 0;overflow:hidden;
+}
+.tbar{
+  display:flex;align-items:center;gap:12px;padding:10px 14px;
+  border-bottom:1.5px solid var(--ink-17);background:#1C1B1A;
+  font-family:var(--mono);font-size:12px;letter-spacing:.04em;color:var(--ink-55);
+}
+.tdots{display:flex;gap:6px;flex:none}
+.tdots i{width:10px;height:10px;border-radius:50%;background:rgba(242,240,233,.22);display:block}
+.tbar .tapp{margin-left:auto;color:#D97757;font-weight:600;display:flex;align-items:center;gap:6px}
+.tbar .tapp svg{width:13px;height:13px;display:block}
+.tbody{
+  padding:clamp(16px,2.2vw,22px);display:flex;flex-direction:column;gap:13px;
+  font-family:var(--mono);font-size:clamp(13px,1.5vw,14.5px);line-height:1.6;
+}
+.tbody p{margin:0;max-width:none;display:flex;gap:10px}
+.tbody .cue{color:var(--ink-35);flex:none}
+.tbody .star{color:#D97757;flex:none}
+.tin{color:var(--ink)}
+.tout{color:var(--ink-80)}
+.tfile{
+  color:var(--ink-35);font-size:.9em;padding-left:24px;
+}
+.tcap{
+  font-family:var(--mono);font-size:12px;color:var(--ink-55);line-height:1.55;
+  border-top:1.5px solid var(--ink-17);padding:11px 14px;margin:0;background:#1C1B1A;
+}
+.tcap b{color:var(--ink);font-weight:600}
+</style>
